@@ -436,7 +436,40 @@ hr {
 
 
 /* Responsive Media Queries */
-@media (max-width: 500px) {
+
+/* iPhone 5 users */
+@media (max-width: 330px) {
+  .grid-contain {
+    grid-template: repeat(12, minmax(200px, 2fr)) / repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .grid:hover>.year::after {
+    font-size: 9px;
+  }
+
+  .quote-resize {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #qb-resize {
+    width: 150%;
+    margin-left: -20%;
+  }
+
+  .learn-container {
+    margin-left: -25%;
+  }
+
+  .learn-text {
+    font-size: 18px;
+    transform: translateX(20%);
+  }
+
+}
+
+ 
+@media (max-width: 500px) and (min-width: 330px) {
   .grid-contain {
     grid-template: repeat(12, minmax(200px, 2fr)) / repeat(auto-fit, minmax(300px, 1fr));
   }
