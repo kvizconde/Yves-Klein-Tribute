@@ -192,12 +192,12 @@ hr {
 }
 
 .content1 {
-  background: var(--bg-dark), url(../img/nice.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/nice.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content1:hover {
-  background: var(--bg-hover), url(../img/nice.jpg) center;
+  background: var(--bg-hover), url(./img/nice.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -209,12 +209,12 @@ hr {
 }
 
 .content2 {
-  background: var(--bg-dark), url(../img/monotone-symphony.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/monotone-symphony.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content2:hover {
-  background: var(--bg-hover), url(../img/monotone-symphony.jpg) center;
+  background: var(--bg-hover), url(./img/monotone-symphony.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -226,12 +226,12 @@ hr {
 }
 
 .content3 {
-  background: var(--bg-dark), url(../img/judo.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/judo.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content3:hover {
-  background: var(--bg-hover), url(../img/judo.jpg) center;
+  background: var(--bg-hover), url(./img/judo.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -260,12 +260,12 @@ hr {
 
 
 .content5 {
-  background: var(--bg-dark), url(../img/globe.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/globe.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content5:hover {
-  background: var(--bg-hover), url(../img/globe.jpg) center;
+  background: var(--bg-hover), url(./img/globe.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -277,12 +277,12 @@ hr {
 }
 
 .content6 {
-  background: var(--bg-dark), url(../img/void_gallery.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/void_gallery.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content6:hover {
-  background: var(--bg-hover), url(../img/void_gallery.jpg) center;
+  background: var(--bg-hover), url(./img/void_gallery.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -294,12 +294,12 @@ hr {
 }
 
 .content7 {
-  background: var(--bg-dark), url(../img/leapVoid.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/leapVoid.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content7:hover {
-  background: var(--bg-hover), url(../img/leapVoid.jpg) top;
+  background: var(--bg-hover), url(./img/leapVoid.jpg) top;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -311,12 +311,12 @@ hr {
 }
 
 .content8 {
-  background: var(--bg-dark), url(../img/nudebrush.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/nudebrush.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content8:hover {
-  background: var(--bg-hover), url(../img/nudebrush.jpg) center;
+  background: var(--bg-hover), url(./img/nudebrush.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -328,12 +328,12 @@ hr {
 }
 
 .content9 {
-  background: var(--bg-dark), url(../img/firepaint.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/firepaint.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content9:hover {
-  background: var(--bg-hover), url(../img/firepaint.jpg) center;
+  background: var(--bg-hover), url(./img/firepaint.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -345,12 +345,12 @@ hr {
 }
 
 .content10 {
-  background: var(--bg-dark), url(../img/wedding.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/wedding.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content10:hover {
-  background: var(--bg-hover), url(../img/wedding.jpg) center;
+  background: var(--bg-hover), url(./img/wedding.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -362,12 +362,12 @@ hr {
 }
 
 .content11 {
-  background: var(--bg-dark), url(../img/venus.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/venus.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content11:hover {
-  background: var(--bg-hover), url(../img/venus.jpg) top;
+  background: var(--bg-hover), url(./img/venus.jpg) top;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -379,12 +379,12 @@ hr {
 }
 
 .content12 {
-  background: var(--bg-dark), url(../img/smoke.jpg) no-repeat center;
+  background: var(--bg-dark), url(./img/smoke.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content12:hover {
-  background: var(--bg-hover), url(../img/smoke.jpg) center;
+  background: var(--bg-hover), url(./img/smoke.jpg) center;
   background-size: 120%;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -406,7 +406,7 @@ hr {
 
 #quote-bottom {
   margin: -200px 0;
-  background: var(--bg-dark), url(../img/hand.jpg) no-repeat top / cover;
+  background: var(--bg-dark), url(./img/hand.jpg) no-repeat top / cover;
   background-attachment: fixed;
 }
 
