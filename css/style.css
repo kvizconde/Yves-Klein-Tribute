@@ -75,7 +75,7 @@ body {
 }
 
 .bg::after {
-  background-image: url(../img/yk_splash.jpg);
+  background-image: url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/yk_splash.jpg);
 }
 
 .text-box {
@@ -94,20 +94,16 @@ body {
 
 .text-box:hover {
   background-color: #002fa7;
-  -webkit-box-shadow: 6px 8px 25px 1px rgba(0, 0, 0, .35);
-  box-shadow: 6px 8px 25px 1px rgba(0, 0, 0, .35);
+  box-shadow: 6px 8px 25px 1px rgba(0, 0, 0, 0.35);
   outline: 2px solid #fff;
   outline-offset: -2px;
 }
 
 .text-box:hover>#title {
-  -webkit-transform: scale(.8);
-  transform: scale(.8);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  transform: scale(0.8);
+  transition: 0.3s ease;
   color: #fff;
 }
-
 
 /* Middle Section */
 
@@ -158,21 +154,16 @@ hr {
 
 .grid-contain {
   display: grid;
-  grid-template: repeat(3, minmax(300px, 2fr)) / repeat(auto-fit, minmax(400px, 1fr));
+  grid-template: repeat(3, minmax(300px, 2fr)) / repeat(auto-fit,
+    minmax(400px, 1fr));
   grid-gap: 10px;
   text-align: center;
 }
 
 .grid {
   background: var(--bg-dark);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -181,7 +172,6 @@ hr {
   font-weight: normal;
   display: block;
   margin: 0 auto;
-  -webkit-transform: var(--text-translate);
   transform: var(--text-translate);
   width: 80%;
 }
@@ -192,15 +182,15 @@ hr {
 }
 
 .content1 {
-  background: var(--bg-dark), url(./img/nice.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/nice.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content1:hover {
-  background: var(--bg-hover), url(./img/nice.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/nice.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -209,15 +199,15 @@ hr {
 }
 
 .content2 {
-  background: var(--bg-dark), url(./img/monotone-symphony.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/monotone-symphony.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content2:hover {
-  background: var(--bg-hover), url(./img/monotone-symphony.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/monotone-symphony.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -226,15 +216,15 @@ hr {
 }
 
 .content3 {
-  background: var(--bg-dark), url(./img/judo.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/judo.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content3:hover {
-  background: var(--bg-hover), url(./img/judo.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/judo.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -249,8 +239,6 @@ hr {
 }
 
 .content4:hover {
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -258,17 +246,16 @@ hr {
   content: "Beginning of the artist's Blue Period. Painted one of his first Blue Monochromes featuring IKB.";
 }
 
-
 .content5 {
-  background: var(--bg-dark), url(./img/globe.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/globe.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content5:hover {
-  background: var(--bg-hover), url(./img/globe.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/globe.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -277,15 +264,15 @@ hr {
 }
 
 .content6 {
-  background: var(--bg-dark), url(./img/void_gallery.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/void_gallery.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content6:hover {
-  background: var(--bg-hover), url(./img/void_gallery.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/void_gallery.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -294,15 +281,15 @@ hr {
 }
 
 .content7 {
-  background: var(--bg-dark), url(./img/leapVoid.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/leapVoid.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content7:hover {
-  background: var(--bg-hover), url(./img/leapVoid.jpg) top;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/leapVoid.jpg) top;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -311,15 +298,15 @@ hr {
 }
 
 .content8 {
-  background: var(--bg-dark), url(./img/nudebrush.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/nudebrush.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content8:hover {
-  background: var(--bg-hover), url(./img/nudebrush.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/nudebrush.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -328,15 +315,15 @@ hr {
 }
 
 .content9 {
-  background: var(--bg-dark), url(./img/firepaint.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/firepaint.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content9:hover {
-  background: var(--bg-hover), url(./img/firepaint.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/firepaint.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -345,15 +332,15 @@ hr {
 }
 
 .content10 {
-  background: var(--bg-dark), url(./img/wedding.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/wedding.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content10:hover {
-  background: var(--bg-hover), url(./img/wedding.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/wedding.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -362,15 +349,15 @@ hr {
 }
 
 .content11 {
-  background: var(--bg-dark), url(./img/venus.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/venus.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content11:hover {
-  background: var(--bg-hover), url(./img/venus.jpg) top;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/venus.jpg) top;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -379,22 +366,21 @@ hr {
 }
 
 .content12 {
-  background: var(--bg-dark), url(./img/smoke.jpg) no-repeat center;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/smoke.jpg) no-repeat center;
   background-size: cover;
 }
 
 .content12:hover {
-  background: var(--bg-hover), url(./img/smoke.jpg) center;
+  background: var(--bg-hover),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/smoke.jpg) center;
   background-size: 120%;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: start;
 }
 
 .content12:hover>.year::after {
   content: "June 6th - Dies from a heart attack at the age of 34 in Paris, France.";
 }
-
 
 /* Bottom Section */
 
@@ -406,7 +392,8 @@ hr {
 
 #quote-bottom {
   margin: -200px 0;
-  background: var(--bg-dark), url(./img/hand.jpg) no-repeat top / cover;
+  background: var(--bg-dark),
+    url(https://raw.githubusercontent.com/kvizconde/Yves-Klein-Tribute/master/img/hand.jpg) no-repeat top / cover;
   background-attachment: fixed;
 }
 
