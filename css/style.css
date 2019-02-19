@@ -12,6 +12,7 @@ COLOURS:
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -38,6 +39,7 @@ body {
 #main {
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-perspective: 2px;
   perspective: 2px;
   height: 100vh;
   position: relative;
@@ -46,8 +48,14 @@ body {
 .header {
   font-family: "Cinzel", serif;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -58,6 +66,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  -webkit-transform: translateZ(-1px) scale(1.5);
   transform: translateZ(-1px) scale(1.5);
   z-index: -1;
   background-size: cover;
@@ -85,13 +94,16 @@ body {
 
 .text-box:hover {
   background-color: #002fa7;
+  -webkit-box-shadow: 6px 8px 25px 1px rgba(0, 0, 0, .35);
   box-shadow: 6px 8px 25px 1px rgba(0, 0, 0, .35);
   outline: 2px solid #fff;
   outline-offset: -2px;
 }
 
 .text-box:hover>#title {
+  -webkit-transform: scale(.8);
   transform: scale(.8);
+  -webkit-transition: .3s ease;
   transition: .3s ease;
   color: #fff;
 }
@@ -153,8 +165,14 @@ hr {
 
 .grid {
   background: var(--bg-dark);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -163,6 +181,7 @@ hr {
   font-weight: normal;
   display: block;
   margin: 0 auto;
+  -webkit-transform: var(--text-translate);
   transform: var(--text-translate);
   width: 80%;
 }
@@ -180,6 +199,8 @@ hr {
 .content1:hover {
   background: var(--bg-hover), url(../img/nice.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -195,6 +216,8 @@ hr {
 .content2:hover {
   background: var(--bg-hover), url(../img/monotone-symphony.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -210,6 +233,8 @@ hr {
 .content3:hover {
   background: var(--bg-hover), url(../img/judo.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -224,6 +249,8 @@ hr {
 }
 
 .content4:hover {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -240,6 +267,8 @@ hr {
 .content5:hover {
   background: var(--bg-hover), url(../img/globe.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -255,6 +284,8 @@ hr {
 .content6:hover {
   background: var(--bg-hover), url(../img/void_gallery.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -270,6 +301,8 @@ hr {
 .content7:hover {
   background: var(--bg-hover), url(../img/leapVoid.jpg) top;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -285,6 +318,8 @@ hr {
 .content8:hover {
   background: var(--bg-hover), url(../img/nudebrush.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -300,6 +335,8 @@ hr {
 .content9:hover {
   background: var(--bg-hover), url(../img/firepaint.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -315,6 +352,8 @@ hr {
 .content10:hover {
   background: var(--bg-hover), url(../img/wedding.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -330,6 +369,8 @@ hr {
 .content11:hover {
   background: var(--bg-hover), url(../img/venus.jpg) top;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -345,6 +386,8 @@ hr {
 .content12:hover {
   background: var(--bg-hover), url(../img/smoke.jpg) center;
   background-size: 120%;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
 }
 
@@ -463,6 +506,7 @@ hr {
 
   .learn-text {
     font-size: 18px;
+    -webkit-transform: translateX(20%);
     transform: translateX(20%);
   }
 }
