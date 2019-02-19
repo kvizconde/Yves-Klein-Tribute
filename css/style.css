@@ -463,6 +463,12 @@ hr {
   text-align: center;
 }
 
+#image {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
 #img-caption {
   font-style: italic;
   font-size: 10px;
@@ -491,26 +497,44 @@ hr {
 
 
 /* Responsive Media Queries */
-@media (max-width: 905px) {
+@media (max-width: 500px) {
   .grid-contain {
-    grid-template: repeat(12, minmax(300px, 2fr)) / repeat(auto-fit, minmax(400px, 1fr));
+    grid-template: repeat(12, minmax(200px, 2fr)) / repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .quote-resize {
+    width: 95%;
+  }
+
+  #qb-resize {
+    width: 95%;
+  }
+
+  .learn-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 905px) and (min-width: 500px) {
+  .grid-contain {
+    grid-template: repeat(12, minmax(300px, 1fr)) / repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
 @media (max-width: 1315px) and (min-width: 905px) {
   .grid-contain {
-    grid-template: repeat(6, minmax(300px, 2fr)) / repeat(auto-fit, minmax(400px, 1fr));
+    grid-template: repeat(6, minmax(300px, 1fr)) / repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
 @media (max-width: 1725px) and (min-width: 1315px) {
   .grid-contain {
-    grid-template: repeat(4, minmax(300px, 2fr)) / repeat(auto-fit, minmax(400px, 1fr));
+    grid-template: repeat(4, minmax(300px, 1fr)) / repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
 @media (min-width: 1725px) {
   .grid-contain {
-    grid-template: repeat(3, minmax(300px, 2fr)) / repeat(auto-fit, minmax(400px, 1fr));
+    grid-template: repeat(3, minmax(300px, 1fr)) / repeat(auto-fit, minmax(400px, 1fr));
   }
 }
