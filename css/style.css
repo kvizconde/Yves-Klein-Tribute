@@ -22,6 +22,8 @@ COLOURS:
   --bg-dark: linear-gradient(var(--top-color), var(--bottom-color));
   --bg-hover: linear-gradient(rgba(0, 47, 168, .8), rgba(0, 47, 168, .8));
   --text-translate: translateY(40%);
+  --hover-fontsize: 16px;
+  --hover-fontsize-sm: 11px;
 }
 
 body {
@@ -156,6 +158,15 @@ hr {
   align-items: center;
 }
 
+.grid:hover>.year::after {
+  font-size: var(--hover-fontsize);
+  font-weight: normal;
+  display: block;
+  margin: 0 auto;
+  transform: var(--text-translate);
+  width: 80%;
+}
+
 .year {
   font-size: 50px;
   color: #eee;
@@ -174,12 +185,6 @@ hr {
 
 .content1:hover>.year::after {
   content: "Born in Nice, France to Fred Klein (1898-1990) and Marie Raymond (1908-1989), both painters.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content2 {
@@ -195,12 +200,6 @@ hr {
 
 .content2:hover>.year::after {
   content: "Composed 'The Monotone-Silence Symphony' that consisted of a single 20-minute sustained chord followed by a 20-minute silence.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content3 {
@@ -216,12 +215,6 @@ hr {
 
 .content3:hover>.year::after {
   content: "Yves earns a Black Belt-Dan 1 degree. He starts producing documentary films about judo, showing movements performed by Japanese masters.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 /* IKB-ART content4 */
@@ -236,12 +229,6 @@ hr {
 
 .content4:hover>.year::after {
   content: "Beginning of the artist's Blue Period. Painted one of his first Blue Monochromes featuring IKB.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 
@@ -258,12 +245,6 @@ hr {
 
 .content5:hover>.year::after {
   content: "Yves Klein stated that the Earth was entirely blue. It was on that occasion that he created a Blue Relief globe.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content6 {
@@ -279,12 +260,6 @@ hr {
 
 .content6:hover>.year::after {
   content: "Immaterial series; Yves Klein creates Le Vide (The Void), removing everything from the Iris Clert Gallery.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content7 {
@@ -300,12 +275,6 @@ hr {
 
 .content7:hover>.year::after {
   content: "October 19th - Le Saut dans le Vide (Leap into the Void); Yves jumps in the void at 3 Rue Gentil-Bernard in Fontenay-aux-Roses.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content8 {
@@ -321,12 +290,6 @@ hr {
 
 .content8:hover>.year::after {
   content: "March 9th - Anthropometries series; Klein used nude female models as 'Human Brushes.'";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content9 {
@@ -342,12 +305,6 @@ hr {
 
 .content9:hover>.year::after {
   content: "Yves Klein produces his Fire paintings at the Gaz de France test centre.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: translateY(60%);
-  width: 80%;
 }
 
 .content10 {
@@ -363,12 +320,6 @@ hr {
 
 .content10:hover>.year::after {
   content: "January 21st - Yves marries Rotraut at St Nicolas des Champs. The ceremony, staged by Yves to the smallest detail, includes the presence of Knights of the Order of Saint Sebastian in full gear. ";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content11 {
@@ -384,12 +335,6 @@ hr {
 
 .content11:hover>.year::after {
   content: "Venus Bleue (S41) IKB pigment and synthetic resin on plaster.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 .content12 {
@@ -405,12 +350,6 @@ hr {
 
 .content12:hover>.year::after {
   content: "June 6th - Dies from a heart attack at the age of 34 in Paris, France.";
-  font-weight: normal;
-  font-size: 16px;
-  display: block;
-  margin: 0 auto;
-  transform: var(--text-translate);
-  width: 80%;
 }
 
 
@@ -500,6 +439,10 @@ hr {
 @media (max-width: 500px) {
   .grid-contain {
     grid-template: repeat(12, minmax(200px, 2fr)) / repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .grid:hover>.year::after {
+    font-size: var(--hover-fontsize-sm);
   }
 
   .quote-resize {
